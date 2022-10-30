@@ -51,12 +51,20 @@ p {
   text-decoration: none;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+}
+
+.secondary-link:hover {
+  color: var(--primary-color);
 }
 
 .mailto-link {
